@@ -9,7 +9,6 @@ from loguru import logger
 from fake_useragent import UserAgent
 from colorama import Fore
 
-init()
 def center_text(text):
     columns = os.get_terminal_size().columns
     return text.center(columns)
