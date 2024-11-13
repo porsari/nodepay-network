@@ -33,6 +33,7 @@ def center_text(text):
 ╚═╝  ╚═══╝╚══════╝   ╚═╝    ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝{Fore.RESET}
 """
 
+print(center_text(custom_ascii_art))
 print(center_text(f"{Fore.YELLOW}NODEPAY NETWORK BOT{Fore.RESET}"))
 print(center_text(f"Welcome & Enjoy Sir! {Fore.RESET}"))
 print(center_text(f"Author : Nofan Rambe {Fore.RESET}"))
