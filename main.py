@@ -29,8 +29,8 @@ def display_header():
 """
     print(custom_ascii_art)
     print(f"{Fore.YELLOW}NODEPAY NETWORK BOT{Fore.RESET}")
-    print(f"Welcome & Enjoy Sir!{Fore.RESET)")
-    print(f"Author : Nofan Rambe{Fore.RESET)")
+    print(f"Welcome & Enjoy Sir!", Fore.RESET
+    print(f"Author : Nofan Rambe", Fore.RESET
 
 display_header()
 
