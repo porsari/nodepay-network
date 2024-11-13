@@ -5,11 +5,16 @@ import time
 import uuid
 import cloudscraper
 import pyfiglet
-from colorama import Fore
+from colorama
+import Fore, init 
+import os
 from loguru import logger
 from fake_useragent import UserAgent
 
-def display_header():
+init()
+def center_text(text):
+    columns = os.get_terminal_size().columns
+    return text.center(columns)
     custom_ascii_art = f"""
     {Fore.CYAN}
 
@@ -27,12 +32,10 @@ def display_header():
 ██║ ╚████║███████╗   ██║   ╚███╔███╔╝╚██████╔╝██║  ██║██║  ██╗
 ╚═╝  ╚═══╝╚══════╝   ╚═╝    ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝{Fore.RESET}
 """
-    print(custom_ascii_art)
-    print(f"{Fore.YELLOW}NODEPAY NETWORK BOT{Fore.RESET}")
-    print("Welcome & Enjoy Sir!", Fore.RESET)
-    print("Author : Nofan Rambe", Fore.RESET)
 
-display_header()
+print(center_text(f"{Fore.YELLOW}NODEPAY NETWORK BOT{Fore.RESET}"))
+print(center_text(f"Welcome & Enjoy Sir! {Fore.RESET}"))
+print(center_text(f"Author : Nofan Rambe {Fore.RESET}"))
 
 def show_warning():
     confirm = input("\nPress Enter to continue or Ctrl+C to cancel... ")
