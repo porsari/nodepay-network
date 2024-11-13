@@ -7,7 +7,7 @@ import cloudscraper
 import pyfiglet
 from loguru import logger
 from fake_useragent import UserAgent
-from colorama import Fore, init import os
+from colorama import Fore
 
 init()
 def center_text(text):
