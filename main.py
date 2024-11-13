@@ -5,9 +5,7 @@ import time
 import uuid
 import cloudscraper
 import pyfiglet
-from colorama
-import Fore, init 
-import os
+from colorama import Fore, init import os
 from loguru import logger
 from fake_useragent import UserAgent
 
