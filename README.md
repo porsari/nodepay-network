@@ -14,7 +14,9 @@ A Nodepay Network Extension Node bot is a tool designed to automate interactions
 
 3. VPS (Optional) and Python3
 
-### SETUP & CONFIGURE BOT
+---
+
+### HOW TO GET TOKEN
 
 - Open [Nodepay](https://app.nodepay.ai/register?ref=fkCYv2psxv9YkrM) and login to dashboard
 
@@ -33,7 +35,9 @@ A Nodepay Network Extension Node bot is a tool designed to automate interactions
 
 ---
 
-### INSTALLATION
+### SETUP & CONFIGURE BOT
+
+#### INSTALLATION
 
 Install Python For Windows: [Python](https://www.python.org/ftp/python/3.13.0/python-3.13.0-amd64.exe)
 
@@ -54,7 +58,7 @@ Install Python For Windows: [Python](https://www.python.org/ftp/python/3.13.0/py
 
 ---
 
-### CONFIGURATION
+#### CONFIGURATION
 
 Before running the bot, you need to set up your configuration:
 
