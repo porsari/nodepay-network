@@ -50,7 +50,7 @@ RETRIES = 3  # Limit retries to avoid delays
 
 DOMAIN_API = {
     "SESSION": "http://18.136.143.169/api/auth/session",
-    "PING": "http://13.215.134.222/api/network/ping"
+    "PING": "https://nw.nodepay.org/api/network/ping"
 }
 
 CONNECTION_STATES = {
