@@ -44,7 +44,7 @@ Install Python For Windows: [Python](https://www.python.org/ftp/python/3.13.0/py
 
 1. Clone project repository
    ```bash
-   git clone http://github.com/Rambeboy/Nodepay-Network.git && cd Nodepay-Network
+   git clone http://github.com/Rambeboy/nodepay-network.git && cd nodepay-network
    ```
 
 2. Install dependencies
