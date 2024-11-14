@@ -24,14 +24,10 @@ A Nodepay Network Extension Node bot is a tool designed to automate interactions
 
 - At the console, type ```allow pasting``` and press enter
 
-![0001](https://github.com/im-hanzou/getgrass_bot/blob/main/pasting.JPG)
-
 - Then type
   ```bash
   localStorage.getItem('np_token')
   ```
-  
-![0002](https://github.com/im-hanzou/getgrass_bot/blob/main/nodepaytoken.png)
 
 - The text that appears is your nodepay token and copy the text
 
